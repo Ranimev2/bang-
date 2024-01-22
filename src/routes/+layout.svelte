@@ -34,22 +34,22 @@
 </script>
 
 <SvelteSeo
-	title="BacaBin"
+	title="Yomaid"
 	description="Tempat baca komik gratis tanpa iklan"
 	canonical={$page.url.toString()}
 	keywords="manhwa,manhua,komik"
 	openGraph={{
 		type: 'website',
 		url: $page.url.toString(),
-		title: 'Bacabin',
+		title: 'yomaid',
 		description: 'Tempat baca komik gratis tanpa iklan',
-		site_name: 'Bacabin'
+		site_name: 'yomaid'
 	}}
 />
 
 <main id="layoutapp" class="py-5">
 	<div class="mb-5 content flex gap-5 font-semibold">
-		<a href="/">BacaBin</a>
+		<a href="/">Yomaid</a>
 		<a href="/bookmarks">My Bookmarks (All Server)</a>
 		{#if $page.params.server}
 			<a href="/{$page.params.server}">{$page.params.server}</a>
