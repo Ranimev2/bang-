@@ -146,15 +146,15 @@
 
 <svelte:window on:wheel={onScroll} on:scroll={onScroll} />
 <SvelteSeo
-	title={data.item.title + ' - ' + data.server + ' - Bacabin'}
+	title={data.item.title + ' - ' + data.server + ' - yomaid'}
 	description={'Mirror dari ' + data.server}
 	canonical={$page.url.toString()}
 	keywords={data.server + ',bacabin'}
 	openGraph={{
 		type: 'website',
 		url: $page.url.toString(),
-		title: data.item.title + ' - ' + data.server + ' - Bacabin',
-		description: `${data.item.title} Mirror dari ${data.server} - Bacabin`,
+		title: data.item.title + ' - ' + data.server + ' - yomaid',
+		description: `${data.item.title} Mirror dari ${data.server} - yomaid`,
 		image: data.item.chapterImages[0],
 		images: [
 			{
