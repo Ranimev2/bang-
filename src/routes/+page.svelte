@@ -32,8 +32,8 @@
 
 <div class="content">
 	<div class="md:w-[80%] mt-10 mb-24 mx-auto text-center">
-		<h1>BacaBin</h1>
-		<h5>@author: Binsar Dwi Jasuma</h5>
+		<h1>Yomaid</h1>
+		<h5>@author: Ahmad Riza</h5>
 		<div class="my-10 tracking-wide">
 			<h5>*Pesan Langsung Dari Developer. Silakan Disimak!!</h5>
 			<p>
